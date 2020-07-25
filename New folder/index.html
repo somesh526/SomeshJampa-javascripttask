@@ -1,0 +1,60 @@
+<html>
+<head>
+         <title>Login form</title>
+         <link rel="stylesheet" href="style.css">
+         <script type="text/javascript">
+          
+         function validate()
+        {
+            var username = document.getElementById("uname");
+            var password = document.getElementById("pass");
+            
+            if(username.value.trim() =="" ||password.value =="")
+          { 
+            alert("No blank values allowed");
+            return false;
+          }
+         else
+         { 
+            true;
+         }
+
+       }
+       function validate1()
+       { 
+          if(1)
+         {
+          alert("this option is still not integrated");
+         }
+       }
+</script>
+ </head>
+<body> 
+        
+          <div class="epam">
+                 <div class="form-box">      
+
+                <form onsubmit="return validate()" class="input-group" action="message.html">
+                <h1>&#127891&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sign in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#10007</h1> 
+                <input id="uname" type="text" class="input-field" placeholder="mail@example.com" >
+                  
+                <input id="pass" type="text" class="input-field" placeholder="password" >
+                <button type="submit" class="submit-btn">SIGN IN</button>
+                 <p style="color: black;">Forgot your password?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Register!</p>   
+                 
+                 <h3><span>OR</span></h3>
+                &nbsp;
+ 
+                <button onclick=validate1() type="submit" class="button1">f</button>
+                     &nbsp;
+                <button onclick=validate1() type="submit" class="button2">g</button>
+<br><br>                 
+ <h2> &#8249EPAM LOGIN&#8250 </h2>              
+ 
+ </form>              
+</div>
+</div>
+ 
+
+</body>
+</html>
